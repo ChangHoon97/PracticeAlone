@@ -9,6 +9,14 @@ public class RepetitionEx1 {
 			}
 			System.out.println();
 		}
+		
+		int[] arr = {10,20,30,40,50};
+		
+		//arr에 저장된 값이 하나하나 tmp에 저장된다
+		// 10 -> 20 -> 30 ....
+		for(int tmp : arr) {
+			System.out.println(tmp);
+		}
 
 	}
 
